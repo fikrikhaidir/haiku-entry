@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const haiku = [
-  "Alas, the breakpoint!",
-  "Three nights I wept at the log.",
-  "The culprit: my hand.",
+  "Dawn finds me weeping.",
+  "I cursed the compiler's name.",
+  "Git blame whispers: me.",
 ].join("\n");
 
 if (haiku.length < 1 || haiku.length > 200) {
